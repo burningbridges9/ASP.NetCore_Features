@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{BF6F891B-FC29-4ACE-8705-BC7750012CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService", "MonitoringService\MonitoringService.csproj", "{C0CBEB7D-1951-450F-B163-A3CE93E29168}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService", "HealthChecks\MonitoringService\MonitoringService.csproj", "{C0CBEB7D-1951-450F-B163-A3CE93E29168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseService", "DatabaseService\DatabaseService.csproj", "{28ED6DE1-366F-4667-B8E4-057E3C841B4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseService", "HealthChecks\DatabaseService\DatabaseService.csproj", "{28ED6DE1-366F-4667-B8E4-057E3C841B4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hangfire", "Hangfire", "{52712487-5F35-46F1-94FD-004E6F377E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{347E0027-679D-43F4-9162-9584F0697CEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "Hangfire\NotificationService\NotificationService.csproj", "{347E0027-679D-43F4-9162-9584F0697CEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
