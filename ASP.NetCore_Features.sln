@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthChecks", "HealthChecks", "{BF6F891B-FC29-4ACE-8705-BC7750012CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService", "MonitoringService\MonitoringService.csproj", "{C0CBEB7D-1951-450F-B163-A3CE93E29168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseService", "DatabaseService\DatabaseService.csproj", "{28ED6DE1-366F-4667-B8E4-057E3C841B4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0CBEB7D-1951-450F-B163-A3CE93E29168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CBEB7D-1951-450F-B163-A3CE93E29168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CBEB7D-1951-450F-B163-A3CE93E29168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CBEB7D-1951-450F-B163-A3CE93E29168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28ED6DE1-366F-4667-B8E4-057E3C841B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ED6DE1-366F-4667-B8E4-057E3C841B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ED6DE1-366F-4667-B8E4-057E3C841B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ED6DE1-366F-4667-B8E4-057E3C841B4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C0CBEB7D-1951-450F-B163-A3CE93E29168} = {BF6F891B-FC29-4ACE-8705-BC7750012CBC}
+		{28ED6DE1-366F-4667-B8E4-057E3C841B4E} = {BF6F891B-FC29-4ACE-8705-BC7750012CBC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A470D51-1223-46D1-AFDE-970FBC5E57BB}
+	EndGlobalSection
+EndGlobal
