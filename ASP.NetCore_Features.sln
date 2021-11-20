@@ -5,13 +5,19 @@ VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HealthCheck", "HealthCheck", "{BF6F891B-FC29-4ACE-8705-BC7750012CBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringService", "HealthCheck\MonitoringService\MonitoringService.csproj", "{C0CBEB7D-1951-450F-B163-A3CE93E29168}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringService", "HealthCheck\MonitoringService\MonitoringService.csproj", "{C0CBEB7D-1951-450F-B163-A3CE93E29168}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseService", "HealthCheck\DatabaseService\DatabaseService.csproj", "{28ED6DE1-366F-4667-B8E4-057E3C841B4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DatabaseService", "HealthCheck\DatabaseService\DatabaseService.csproj", "{28ED6DE1-366F-4667-B8E4-057E3C841B4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hangfire", "Hangfire", "{52712487-5F35-46F1-94FD-004E6F377E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "Hangfire\NotificationService\NotificationService.csproj", "{347E0027-679D-43F4-9162-9584F0697CEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "Hangfire\NotificationService\NotificationService.csproj", "{347E0027-679D-43F4-9162-9584F0697CEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IntegrationTesting", "IntegrationTesting", "{4BFAE3AD-3942-48D3-928C-81F74285D49A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryServiceApi", "DeliveryServiceApi\DeliveryServiceApi.csproj", "{CBA13572-9777-4460-A5F0-85801A631CB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeliveryIntegrationApi.IntegrationTests", "DeliveryIntegrationApi.IntegrationTests\DeliveryIntegrationApi.IntegrationTests.csproj", "{B292F3E4-2E55-479D-A24C-07CCA55D45B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +37,14 @@ Global
 		{347E0027-679D-43F4-9162-9584F0697CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347E0027-679D-43F4-9162-9584F0697CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347E0027-679D-43F4-9162-9584F0697CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBA13572-9777-4460-A5F0-85801A631CB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBA13572-9777-4460-A5F0-85801A631CB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBA13572-9777-4460-A5F0-85801A631CB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBA13572-9777-4460-A5F0-85801A631CB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B292F3E4-2E55-479D-A24C-07CCA55D45B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B292F3E4-2E55-479D-A24C-07CCA55D45B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B292F3E4-2E55-479D-A24C-07CCA55D45B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B292F3E4-2E55-479D-A24C-07CCA55D45B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +53,8 @@ Global
 		{C0CBEB7D-1951-450F-B163-A3CE93E29168} = {BF6F891B-FC29-4ACE-8705-BC7750012CBC}
 		{28ED6DE1-366F-4667-B8E4-057E3C841B4E} = {BF6F891B-FC29-4ACE-8705-BC7750012CBC}
 		{347E0027-679D-43F4-9162-9584F0697CEB} = {52712487-5F35-46F1-94FD-004E6F377E32}
+		{CBA13572-9777-4460-A5F0-85801A631CB4} = {4BFAE3AD-3942-48D3-928C-81F74285D49A}
+		{B292F3E4-2E55-479D-A24C-07CCA55D45B1} = {4BFAE3AD-3942-48D3-928C-81F74285D49A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2A470D51-1223-46D1-AFDE-970FBC5E57BB}
